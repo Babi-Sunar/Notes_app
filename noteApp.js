@@ -63,6 +63,7 @@ const addToCard = () => {
 
 
 
+
 //remove notes
 const removeNote = (index) => {
     let notes = JSON.parse(localStorage.getItem('notes')) || [];
@@ -121,3 +122,12 @@ const editNote = (index) => {
     document.getElementById('note-card').innerHTML = card_ihtml;
     noteCount.innerText = notes.length;
 }
+
+
+// let n = localStorage.getItem('alertMessage');
+// alert(n);
+
+// let a = prompt("Change your alert message");
+// if (a) {
+//     localStorage.setItem('alertMessage', a);
+// }
