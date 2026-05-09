@@ -41,7 +41,7 @@ const addToCard = () => {
     card_ihtml = "";
     notes.forEach((note, i) => {
         card_ihtml += `
-        <div class="card " style="width: 100%; ">
+        <div class="card " style="width: 100%; height:auto">
             <div class="card-body">
                 <h5 class="card-title">${note.title}</h5>
                 <p class="card-text">${note.content}</p>
